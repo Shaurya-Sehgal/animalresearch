@@ -115,3 +115,9 @@
 .bibliography {
   margin-top: 130px;
 }
+
+@media screen and (max-width: 1610px) {
+  .custom-btn {
+    top: 70%;
+  }
+}
