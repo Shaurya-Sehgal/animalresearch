@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Woodland Caribou</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Woodland Caribou</h1>
+    <h3 class="by">By Shaurya</h3>
+    <img
+      src="https://carleton.ca/rangifercentral/wp-content/uploads/boreal-caribou-banner.jpg"
+      alt=""
+      width="100%"
+      class="mb-5"
+    />
+    <button class="custom-btn button" onclick="scrollIntoView()">
+      <span>Read More</span>
+    </button>
+    <div class="container">
+      <div class="row" id="about-them" onload="animation()">
+        <div class="col my-auto">
+          <h1 class="text-center">About them</h1>
+          <p class="fs-5">
+            The Woodland Caribou are animals that are currently threatened with
+            only 3000 of them left. They are brown in colour and vary from 1-1.2
+            meters in height. The average weight for males is 180 kg and for
+            females 135 kg. They can only be found in Yukon, Northwest
+            Territories, British Columbia, Alberta, Saskatchewan, Manitoba,
+            Ontario, Quebec, Newfoundland and Labrador and live in Canada's
+            boreal forests. They require large contiguous areas of suitable
+            habitat with low levels of disturbances which is why they live
+            there. Their life span is around 15 years.
+          </p>
+        </div>
+        <div class="col">
+          <img
+            src="https://naturecanada.ca/wp-content/uploads/2022/08/Woodland-Caribou-Range-Map-1024x664.png"
+            alt=""
+            width="100%"
+          />
+        </div>
+      </div>
+      <div class="row why-what">
+        <div class="col">
+          <img
+            src="https://www.nationalobserver.com/sites/nationalobserver.com/files/styles/nat_social/public/img/2018/03/20/cpt142463529.jpg?itok=1V7bBYYW"
+            alt=""
+            width="100%"
+          />
+        </div>
+        <div class="col">
+          <h1 class="text-center">Why and What</h1>
+          <p class="fs-5 text-end">
+            So, you may be asking why are the woodland caribou threatened and
+            how can we help? The woodland waribou are at risk due to human
+            disturbance, construction of roads and pipelines, hunting, and
+            habitat destruction. Forestry, agricultural spread, and mining have
+            also degraded and fragmented the caribou's habitat. It also faces a
+            few different challanges like a lack of food availability during
+            extreme cold and ice and depression due to inbreeding. Whats being
+            done? The Woodland Caribou is federally protected under the Species
+            At Risk Act and under the Canada National Parks Act (where it is
+            found in Canadian National Parks). It's also provincially protected
+            in Ontario, Newfoundland and Labrador, the Northwest Territories,
+            and Alberta.
+          </p>
+        </div>
+      </div>
+      <div class="bibliography text-center">
+        <h1>Bibliography</h1>
+        <a
+          href="https://naturecanada.ca/discover-nature/endangered-species/woodland-caribou/"
+          class="fs-5"
+          >Nature Canada</a
+        >
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function scrollIntoView() {
+        let element = document.getElementById("about-them");
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>
